@@ -1,41 +1,60 @@
 # Real Time Web
 
-- [Real Time Web](#real-time-web)
-    - [Purpose of the app](#purpose-of-the-app)
-    - [Style of the project](#style-of-the-project)
-    - [Feature list](#feature-list)
-    - [Wish list](#wish-list)
-    - [Requirements](#requirements)
-    - [Install guide](#install-guide)
-    - [Tooling](#tooling)
-    - [How to contribute](#how-to-contribute)
+* [Real Time Web](#real-time-web)
+  * [Purpose of the app](#purpose-of-the-app)
+  * [Getting Started](#getting-started)
+  * [Style of the project](#style-of-the-project)
+  * [Feature list](#feature-list)
+  * [Wish list](#wish-list)
+  * [Requirements](#requirements)
+  * [Tooling](#tooling)
+  * [How to contribute](#how-to-contribute)
 
 ## Purpose of the app
-This will be a real-time chat application. As a baseline the [socketio](https://socket.io/demos/chat/) chat demo will be taken, but  
+
+This will be a real-time chat application. As a baseline the [socket.io](https://socket.io/demos/chat/) chat demo will be taken, but
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Installing
+
+After cloning the repository you can install the required dependencies using npm:
+
+```javascript
+$ cd app
+$ npm install
+```
+
+### Usage
+
+In order to launch the development environment:
+
+```javascript
+$ npm start
+```
 
 ## Style of the project
+
 For the general codestyle I decided to adhere to the [google style guide](https://google.github.io/styleguide/jsguide.html). This is because it's fairly new and is a bit different then my current coding style, which is mostly based of the airbnb styleguide. With this i hope to be able to slowly form my own coding style.
-As for the document structure I decided to use [risingstacks](https://blog.risingstack.com/node-hero-node-js-project-structure-tutorial/) project structure as a baseline.   
-Reasoning behind this is that I personally find the MVC document structure most sources recommend quite cluttered, and I prefer to create my app parts as encapsulated as possible.  Down the line i'll probably divert from risingstacks structure slightly, and will document my adaptations here. 
+As for the document structure I decided to use [risingstacks](https://blog.risingstack.com/node-hero-node-js-project-structure-tutorial/) project structure as a baseline.  
+Reasoning behind this is that I personally find the MVC document structure most sources recommend quite cluttered, and I prefer to create my app parts as encapsulated as possible. Down the line i'll probably divert from risingstacks structure slightly, and will document my adaptations here.
 
 ## Feature list
 
 ## Wish list
-[] - Global chat, everyone can chat here
-[] - Private chat groups
-[] - Chat history
-[] - Accounts (Oauth)
-[] - Friends
 
+* [] - Global chat, everyone can chat here
+* [] - Private chat groups
+* [] - Chat history
+* [] - Accounts (Oauth)
+* [] - Friends
 
 ## Requirements
+
 `npm`
 `node`
-
-
-
-## Install guide
-
 
 ## Tooling
 
